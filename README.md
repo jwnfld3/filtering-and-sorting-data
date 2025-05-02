@@ -23,6 +23,8 @@ USE ShopEZ;  -- Sets the context to the ShopEZ database
 
 **Explanation**: Ensures all queries target the correct database.
 
+![image](https://github.com/user-attachments/assets/3f48be86-f53a-4f58-a9ca-043fe641ade5)
+
 ---
 
 ### Step 2: Retrieve Orders Over $100
@@ -33,6 +35,8 @@ WHERE TotalAmount > 100;  -- Filters results to only include orders where TotalA
 ```
 
 **Explanation**: Filters the orders to find only high-value transactions.
+
+![image](https://github.com/user-attachments/assets/091e3211-ff8c-4882-aec7-8399c5991b88)
 
 ---
 
@@ -45,6 +49,8 @@ ORDER BY OrderDate DESC;  -- Sorts results in descending order by OrderDate (new
 
 **Explanation**: Helps prioritize or review the most recent orders.
 
+![image](https://github.com/user-attachments/assets/131c49fe-daab-4abe-b6c0-6c2ccf66dafb)
+
 ---
 
 ### Step 4: Filter and Sort Combined
@@ -56,6 +62,8 @@ ORDER BY TotalAmount DESC;  -- Sorts the results by TotalAmount from highest to 
 ```
 
 **Explanation**: Combines filtering and sorting to find larger transactions and ranks them by size.
+
+![image](https://github.com/user-attachments/assets/02587b44-9986-45c6-836f-46d49aef8dc6)
 
 ---
 
@@ -75,6 +83,8 @@ ORDER BY o.OrderDate;  -- Sorts Alice's orders by date (oldest to newest)
 ```
 
 **Explanation**: Retrieves all orders placed by Alice and displays them in chronological order, useful for customer service reviews or audit trails.
+
+![image](https://github.com/user-attachments/assets/a6449226-6346-449d-8a2b-011196ca38ef)
 
 ---
 
